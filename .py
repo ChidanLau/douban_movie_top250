@@ -47,5 +47,5 @@ for page_num in range(10):
     items = get_info(html)
 
     write(items, page_num*25)
-f.save('DoubanTop250.xls')
+f.save('top250.xls')
 
